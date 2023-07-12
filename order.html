@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        Cheech's Pizza Parlor
+        Makeighlee McGowan 7/9/23
+        Cheech's Pizza Parlor-Makeighlee McGowan
+    -->
+
+    <meta charset="utf-8" >
+   <title>Order</title>
+   
+   <link href="style.css" rel="stylesheet" >
+
+</head>
+
+<body>
+    <header>
+        <a href="menu.html"><img src="imgs/pizza.jpg" alt="Cheech's Pizza" class="center"></a>
+        <nav>
+           <div class="flex-container">
+           <div><a href="home.html">Home</a></div>
+           <div><a href="menu.html">Menu</a></div>
+           <div><a href="order.html">Order Online</a></div>
+           <div><a href="location.html">Our Location</a></div>
+        </div>
+           </nav>
+          
+     </header>
+
+     <h2>Registration Advising Appointment</h2>
+     <div class="container">
+         <form method="get" action="thankyou-1.html">
+           <fieldset>
+             <legend>
+               Contact Information:
+             </legend>
+                 <label for="fname">
+                     Name:
+                     <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+                 </label>
+                 <label for="lname">
+                   Last Name:
+                 <input type="text" name="lname" id="lname" required placeholder="Last Name">
+                 </label>
+                 <label for="Number">
+                   Phone Number:
+                 <input type="Number" name="Number" id="Number" required placeholder="PhoneNumber">
+               </label>
+         </fieldset>
+
+         <fieldset>
+            <legend>
+              Pizza:
+            </legend>
+            <select name="Pizza" id="Pizza">
+              <option value="Cheese"> Cheese</option>
+              <option value="Veggie"> Veggie</option>
+              <option value="Margarita"> Margarita </option>
+              <option value="Olive"> Olive</option>
+              <option value="Onion Pepper"> Onion Pepper</option>
+              <option value="Spinach"> Spinach </option>
+            </select>
+         </fieldset>
+
+         <fieldset>
+            <legend>
+              Number of Pizza's:
+            </legend>
+            <label for="AddInfo">
+            <input type="text" name="AddInfo" id="AddInfo" required placeholder="Number of Pizza's">
+            </label>
+          </fieldset>
+          <input class="submit" type="submit" value="Submit">
+         
+        </form>
+
+        </div>
+
+
+     <footer>
+        Makeighlee McGowan July 9th, 2023 &copy;
+     </footer>
+
+     </body>
+</html>
